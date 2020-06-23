@@ -63,6 +63,11 @@ button:hover {
   background-color: #27394e;
 }
 
+button:focus {
+  background: #2c3f57;
+  outline-style: solid;
+}
+
 /* Globabl Styles - End*/
 
 /* Nav Section With HERO - Start*/
@@ -143,6 +148,7 @@ nav ul {
   padding: 1rem 0rem;
   text-decoration: underline;
   text-decoration-thickness: 0.5rem;
+  font-size: 4rem;
 }
 
 .locations-head h3 {
@@ -234,12 +240,13 @@ nav ul {
 
 .cards img {
   max-width: 15%;
-  margin: 2rem;
+  margin: 1.8rem;
 }
 
 .card h4,
 .card p {
   padding: 1rem;
+  line-height: 2rem;
 }
 
 .card-icon {
